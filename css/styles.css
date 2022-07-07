@@ -173,20 +173,47 @@ body {
   white-space: nowrap;
   border: 0;
 }
+.benefits {
+  display: flex;
+}
+.benefits-li + .benefits-li {
+  margin-left: 30px;
+}
+.benefits-li {
+  width: 270px;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 
-.tittle {
+.benefits-tittle {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.text {
+.benefits-text {
+  margin-top: 10px;
+
   font-weight: 400;
   line-height: 1.142;
+  color: var(--title-text-color);
 }
 /* section2 */
 
 /* section3 */
+.work {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 106px;
+}
+.work-li + .work-li {
+  margin-left: 30px;
+}
 .work-title {
+  display: block;
+  width: 376px;
+  margin-left: auto;
+  margin-right: auto;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.66;
@@ -197,15 +224,27 @@ body {
 .banner-grey {
   background-color: var(--background-color-grey);
 }
+.teams {
+  display: flex;
+  margin-top: ;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+}
 .teams-title {
+  display: block;
+  width: 264px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.66;
 }
-.teams {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.875;
+.teams-li + .teams-li {
+  margin-left: 30px;
 }
 .teams-name {
   font-weight: 500;
