@@ -3,6 +3,22 @@
    License: none (public domain)
 */
 
+/* мои доработки */
+
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,                /* добавит значение бокса */                                 
+*::after {
+  box-sizing: inherit;
+}
+
+/* мои доработки */
 html,
 body,
 div,
@@ -131,7 +147,4 @@ table {
 button {
   border: none;
   outline: none;
-}
-a {
-  text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }

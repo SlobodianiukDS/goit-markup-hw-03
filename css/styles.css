@@ -31,6 +31,12 @@ body {
   color: var(--prymary-text-color);
   font-size: 14px;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 
 /* index */
 /* header */
@@ -54,7 +60,27 @@ body {
 
 /* навигация */
 
+.links-contact {
+  display: flex;
+  margin-left: auto;
+}
+.links-nav {
+  display: flex;
+  margin-left: 94px;
+}
+.links-nav-marg + .links-nav-marg {
+  margin-left: 50px;
+}
+.head-line {
+  display: flex;
+  align-items: center;
+}
+
 .links-nav-text {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   line-height: 1.142;
   letter-spacing: 0.02em;
@@ -65,6 +91,10 @@ body {
   color: var(--accent-color);
 }
 .links-contact-text {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   line-height: 1.142;
   color: var(--title-text-color);
@@ -77,19 +107,42 @@ body {
   color: var(--accent-color);
 }
 /* навигация */
+.head-cont {
+}
 /* header */
 
 /* main */
 /* section1 */
+.banner-night {
+  background-color: var(--background-color-night);
+}
+.main-line {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 694px;
+  text-align: center;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
   color: var(--prymary-white-color);
   background-color: var(--background-color-night);
+  letter-spacing: 0.06em;
 }
 .button {
+  display: block;
+  padding: 10px 32px;
+  min-width: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -98,6 +151,7 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
   border-radius: 4px;
+  letter-spacing: 0.06em;
 }
 
 .button:hover,
@@ -140,6 +194,9 @@ body {
 /* section3 */
 
 /* section4 */
+.banner-grey {
+  background-color: var(--background-color-grey);
+}
 .teams-title {
   font-weight: 700;
   font-size: 36px;
@@ -186,7 +243,14 @@ body {
 /* index */
 
 /* portfolio */
+.filter {
+  display: flex;
+}
 .filter-btn {
+  display: inline;
+  padding: 6px 22px;
+  min-width: 72px;
+
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -194,7 +258,12 @@ body {
   line-height: 1.875;
   background-color: var(--background-color-grey);
   border-radius: 4px;
+  letter-spacing: 0.03em;
+
   cursor: pointer;
+}
+.filt-btn-marg + .filt-btn-marg {
+  margin-left: 8px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -207,7 +276,6 @@ body {
   background-color: var(--accent-color);
 }
 .box-button {
-  display: list-item;
 }
 .works-name {
   font-weight: 700;
