@@ -63,7 +63,7 @@ body {
 
 /* навигация */
 .header {
-  background-color: #2196f3;
+  /* background-color: #2196f3; */
 }
 
 .links-contact {
@@ -128,8 +128,7 @@ body {
 .banner-night {
   background-color: var(--background-color-night);
 }
-
-.main-line {
+.section-hero{
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -178,6 +177,12 @@ body {
 /* section1 */
 
 /* section2 */
+
+.section-benefits{
+  padding-top: 94p;
+  padding-bottom: 94x;
+}
+
 .text-hidden {
   position: absolute;
   width: 1px;
@@ -200,14 +205,13 @@ body {
 
 .benefits-li {
   width: 270px;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .benefits-tittle {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .benefits-text {
@@ -221,6 +225,11 @@ body {
 /* section2 */
 
 /* section3 */
+
+.section-galery{
+  padding-bottom: 94px;
+}
+
 .work {
   display: flex;
   margin-top: 50px;
@@ -249,9 +258,14 @@ body {
   background-color: var(--background-color-grey);
 }
 
-.taem-marg {
+.section-teams{
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.box-teams{
+  padding-top: 30px ;
+  padding-bottom: 30px;
 }
 
 .teams {
@@ -269,6 +283,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
+  text-align: center;
 
   font-weight: 700;
   font-size: 36px;
@@ -279,6 +294,7 @@ body {
   /* display: block;
   margin-left: auto;
   margin-right: auto; */
+  text-align: center;
 
   background-color: var(--prymary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -295,15 +311,13 @@ body {
 }
 
 .teams-text {
-  margin-bottom: 30px;
-
   color: var(--title-text-color);
 }
 
-/* section4 */
-/* main */
+/*========== section4 ==========*/
+/*========== main ==========*/
 
-/* footer */
+/* ========== footer ==========*/
 .ft-mrg {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -349,18 +363,22 @@ body {
   color: var(--accent-color);
 }
 
-/* footer */
-/* index */
+/*========== footer ==========*/
+/* ========== index ==========*/
 
-/* portfolio */
+/*========== portfolio ==========*/
 .haed-bord {
   border: 1px solid #ececec;
+}
+
+.section{
+ padding-top: 94px;
+ padding-bottom: 94px;
 }
 
 .filter {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 20px;
 }
 
@@ -397,12 +415,13 @@ body {
   background-color: var(--accent-color);
 }
 
-.box-button {}
+.box-button {
+  margin-bottom: 50px;
+}
 
 .jobs {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
 }
 
 /* .jobs-li + .jobs-li {
@@ -425,10 +444,11 @@ body {
   margin-bottom: 0;
 }
 
-.works-name {
-  margin-top: 20px;
-  margin-left: 24px;
+.box-job-decrition{
+  padding: 20px 24px;
+}
 
+.works-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -444,4 +464,4 @@ body {
   color: var(--title-text-color);
 }
 
-/* portfolio */
+/* ========= portfolio ==========*/
