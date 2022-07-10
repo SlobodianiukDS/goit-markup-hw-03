@@ -245,6 +245,10 @@ body {
   line-height: 1.66;
 }
 
+.work-li + .work-li{
+  margin-left: 30px;
+}
+
 /* section3 */
 
 /* section4 */

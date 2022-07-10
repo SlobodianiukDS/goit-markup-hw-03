@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["шрифтов"]
+  "cSpell.words": ["шрифтов"],
+  "onCommand":open-in-webview-web-extension.openInWebview,
 }
